@@ -1,7 +1,7 @@
 class ZooAnimal{
     let animalName: String
     let Food: String
-    var data: [String: String] = ["Dog": "meat", "elephant": "cane", "cat": "fish", "bat": "fruit", "birds": "worm", "frog": "fly"]
+    var data:  Dictionary<String,String> = ["Dog": "meat", "elephant": "cane", "cat": "fish", "bat": "fruit", "birds": "worm", "frog": "fly"]
     var List:[String] = ["Dog","elephant","cat","bat","birds","frog"]
     
     init(animalName:String, Food:String){
@@ -35,6 +35,20 @@ class ZooAnimal{
         return deleteName
     }
     
+    func menu(select:String,data:String) -> String{
+        let complete: String
+        if select == "A" {
+            addAnimal(data)
+            complete = "Add Complete"
+        }else if select == "R" {
+            removeAnimalList(data)
+            complete = "Remove Complete"
+        }else{
+            complete = "Not Menu"
+        }
+        return complete!
+    }
+    
 }
 
 let Zoo = ZooAnimal(animalName: "ant", Food: "etc.")
@@ -43,9 +57,11 @@ let Zoo = ZooAnimal(animalName: "ant", Food: "etc.")
 //Zoo.foodAnimal()
 Zoo.changAndAddFood()
 Zoo.foodAnimal()
-Zoo.ShowZooAndFood()
 Zoo.addAnimal("pic")
 Zoo.removeAnimalList("pic")
+Zoo.ShowZooAndFood()
+Zoo.menu("A","Fish")
+
 
 
 

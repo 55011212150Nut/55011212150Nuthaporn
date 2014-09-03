@@ -19,12 +19,16 @@ class ZooAnimal{
     }
     
     
+    
     //var animalName: [Int: String] = [1: "Dog",2: "Cat",3: "Lion",4: "bat"]
    // var eat: [Int: String] = [1: "meat",2: "fish",3: /"meat",4 :"fruit"]
     //let menu: [String] = ["add","remove"]
     
 }
 
-let Zoo = ZooAnimal(animalName: "cat", Food: "cake")
-Zoo.foodAnimal()
+let Zoo = ZooAnimal(animalName: "ant", Food: "etc.")
+//Zoo.foodAnimal()
+//Zoo.changAddFood()
+//Zoo.foodAnimal()
 Zoo.changAddFood()
+Zoo.foodAnimal()

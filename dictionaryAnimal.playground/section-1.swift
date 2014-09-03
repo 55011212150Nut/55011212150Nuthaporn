@@ -2,6 +2,7 @@ class ZooAnimal{
     let animalName: String
     let Food: String
     var data: [String: String] = ["Dog": "meat", "elephant": "cane", "cat": "fish", "bat": "fruit", "birds": "worm", "frog": "fly"]
+    var List:[String] = ["Dog","elephant","cat","bat","birds","frog"]
     
     init(animalName:String, Food:String){
         self.animalName = animalName
@@ -14,15 +15,25 @@ class ZooAnimal{
         return food2!
     }
     
-    func changAddFood(){
+    func changAndAddFood(){
         data[animalName] = Food
     }
     
+    func ShowZooAndFood(){
+        for animalList in data.keys{
+            println(" Animal Name : \(animalList) Food : \(data[animalList])")
+        }
+    }
     
+    func addAnimal(animal:String){
+        List.append(animal)
+
+    }
     
-    //var animalName: [Int: String] = [1: "Dog",2: "Cat",3: "Lion",4: "bat"]
-   // var eat: [Int: String] = [1: "meat",2: "fish",3: /"meat",4 :"fruit"]
-    //let menu: [String] = ["add","remove"]
+    func removeAnimalList(animal:String) -> String{
+        let deleteName = List.removeLast()
+        return deleteName
+    }
     
 }
 
@@ -30,5 +41,11 @@ let Zoo = ZooAnimal(animalName: "ant", Food: "etc.")
 //Zoo.foodAnimal()
 //Zoo.changAddFood()
 //Zoo.foodAnimal()
-Zoo.changAddFood()
+Zoo.changAndAddFood()
 Zoo.foodAnimal()
+Zoo.ShowZooAndFood()
+Zoo.addAnimal("pic")
+Zoo.removeAnimalList("pic")
+
+
+

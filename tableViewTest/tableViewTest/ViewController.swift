@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
+class ViewController: UIViewController,UITableViewDataSourceUITableViewDelegate{
     
     let cellIdentifier = "cellTdentifier"
     var tableData = ["Bus" , "Helicopter" , "Truck"]

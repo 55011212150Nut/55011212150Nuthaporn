@@ -8,18 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController,ColorTwoViewControllerDelegate {
+    
     @IBOutlet var color_Label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func myVCDidFinish(controller: colorTwoViewController, text: String) {
+        color_Label.text = "Co: " + text
+        controller.navigationController?.popViewControllerAnimated(true)
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "mySegue"{
+            let vc = segue.destinationViewController as colorTwoViewController
+            vc.colorString = color_Label.text!
+            vc.delegate = self
+        }
+    }
+    //override func didReceiveMemoryWarning() {
+        //super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    //}
 
 
 }

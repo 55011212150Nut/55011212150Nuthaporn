@@ -13,11 +13,11 @@
                         <viewControllerLayoutGuide type="bottom" id="2CG-TX-u7H"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LXR-D7-oKO">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4EZ-um-28j">
-                                <rect key="frame" x="0.0" y="136" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="136" width="373" height="44"/>
                                 <items>
                                     <navigationItem title="Title" id="5YW-IO-41Z">
                                         <barButtonItem key="leftBarButtonItem" title="save" id="VJn-4T-P3F">
@@ -29,28 +29,34 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaO-AE-jGJ">
-                                <rect key="frame" x="42" y="320" width="48" height="30"/>
+                                <rect key="frame" x="38" y="313" width="48" height="30"/>
                                 <state key="normal" title="Red">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="colorSelectionButton:" destination="qdf-gr-N7L" eventType="touchUpInside" id="2EY-qN-aIv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0M-8h-pPi">
-                                <rect key="frame" x="279" y="320" width="42" height="30"/>
+                                <rect key="frame" x="165" y="313" width="42" height="30"/>
                                 <state key="normal" title="Green">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="colorSelectionButton:" destination="qdf-gr-N7L" eventType="touchUpInside" id="dgs-RP-6xF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5s4-Xw-mq8">
-                                <rect key="frame" x="510" y="320" width="31" height="30"/>
+                                <rect key="frame" x="295" y="313" width="31" height="30"/>
                                 <state key="normal" title="Blue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="colorSelectionButton:" destination="qdf-gr-N7L" eventType="touchUpInside" id="8v0-hj-TuS"/>
+                                    <action selector="colorSelectionButton:" destination="qdf-gr-N7L" eventType="touchUpInside" id="tuA-H4-NHa"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFV-Di-afr">
-                                <rect key="frame" x="279" y="222" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="................" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFV-Di-afr">
+                                <rect key="frame" x="144" y="229" width="85" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -75,23 +81,23 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jM7-zo-Rdj">
-                                <rect key="frame" x="0.0" y="91" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="91" width="363" height="44"/>
                                 <items>
                                     <navigationItem title="Title" id="IQY-YS-S7L">
                                         <barButtonItem key="leftBarButtonItem" title="Color" id="ygy-EK-1sZ">
                                             <connections>
-                                                <segue destination="qdf-gr-N7L" kind="show" id="dzT-HD-LX1"/>
+                                                <segue destination="qdf-gr-N7L" kind="show" identifier="mySegue" id="dzT-HD-LX1"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="un known" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWC-H6-jPS">
-                                <rect key="frame" x="263" y="158" width="75" height="21"/>
+                                <rect key="frame" x="144" y="164" width="75" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -100,6 +106,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="u5o-91-1kh"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="color_Label" destination="SWC-H6-jPS" id="qjE-7x-F9n"/>
                     </connections>

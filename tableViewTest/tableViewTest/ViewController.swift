@@ -35,6 +35,7 @@ class ViewController: UIViewController,UITableViewDelegate{
     }
     
     func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
+        
         var cell = tableView.dequeueReusableCellWithIdentifier(self.cellIdentifier) as UITableViewCell
         
         cell.textLabel!.text = self.tableData[indexPath.row]

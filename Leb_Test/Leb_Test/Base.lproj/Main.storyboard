@@ -22,7 +22,7 @@
                                     <navigationItem title="Add Data" id="1en-lW-ZAN">
                                         <barButtonItem key="leftBarButtonItem" title="Save" id="PPn-7C-f3t">
                                             <connections>
-                                                <action selector="saveData:" destination="kRX-Th-4gf" id="maF-UF-O8l"/>
+                                                <action selector="addData:" destination="kRX-Th-4gf" id="RNI-V3-sC8"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -98,10 +98,17 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="DKb-CJ-gn0">
+                                <rect key="frame" x="0.0" y="108" width="600" height="492"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="UMB-QV-ZlP"/>
+                    <connections>
+                        <outlet property="tableView" destination="DKb-CJ-gn0" id="r7J-Vg-eIO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

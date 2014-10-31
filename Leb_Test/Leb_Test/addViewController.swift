@@ -7,23 +7,38 @@
 //
 
 import UIKit
+    protocol addViewControllerDelegate{
+        func myVCDidFinish(controller:addViewController,id:String,name:String,major:String)
+    }
 
 class addViewController: UIViewController {
 
-    
+    var delegate:addViewControllerDelegate? = nil
     @IBOutlet var nameTextField: UITextField!
     @IBOutlet var idTextField: UITextField!
     @IBOutlet var majorTextField: UITextField!
     
+    //var id = [String]()
+   // var name = [String]()
+   // var major = [String]()
+    
+    @IBAction func addData(sender: AnyObject) {
+        var id = idTextField.text
+        var name = nameTextField.text
+        var major = majorTextField.text
+        
+        if(delegate  != nil){
+            delegate!.myVCDidFinish(self, id: id, name: name
+                , major: major)
+        }
+    }
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    @IBAction func saveData(sender: AnyObject) {
         
     }
+
+
 
     /*
     // MARK: - Navigation

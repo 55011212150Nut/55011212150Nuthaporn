@@ -7,7 +7,13 @@
 //
 
 import Foundation
-class StudentData {
+class studentData {
+    
+    var id = [String]()
+    var name = [String]()
+    var major = [String]()
+    
+
 
     
 }

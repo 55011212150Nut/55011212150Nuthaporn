@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB4BEE31A0CCBA00012BC63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4BEE21A0CCBA00012BC63 /* AppDelegate.swift */; };
+		3FB4BEE51A0CCBA00012BC63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4BEE41A0CCBA00012BC63 /* ViewController.swift */; };
+		3FB4BEE81A0CCBA00012BC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4BEE61A0CCBA00012BC63 /* Main.storyboard */; };
+		3FB4BEEA1A0CCBA00012BC63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4BEE91A0CCBA00012BC63 /* Images.xcassets */; };
+		3FB4BEED1A0CCBA00012BC63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4BEEB1A0CCBA00012BC63 /* LaunchScreen.xib */; };
+		3FB4BEF91A0CCBA00012BC63 /* FishsAnimateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4BEF81A0CCBA00012BC63 /* FishsAnimateTests.swift */; };
+		3FB4BF031A0CCD880012BC63 /* fish-fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4BF021A0CCD880012BC63 /* fish-fish.png */; };
+		3FB4BF041A0CCD880012BC63 /* fish-fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4BF021A0CCD880012BC63 /* fish-fish.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB4BEF31A0CCBA00012BC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB4BED51A0CCBA00012BC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB4BEDC1A0CCBA00012BC63;
+			remoteInfo = FishsAnimate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FB4BEDD1A0CCBA00012BC63 /* FishsAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishsAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB4BEE11A0CCBA00012BC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB4BEE21A0CCBA00012BC63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FB4BEE41A0CCBA00012BC63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FB4BEE71A0CCBA00012BC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB4BEE91A0CCBA00012BC63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FB4BEEC1A0CCBA00012BC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3FB4BEF21A0CCBA00012BC63 /* FishsAnimateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishsAnimateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB4BEF71A0CCBA00012BC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB4BEF81A0CCBA00012BC63 /* FishsAnimateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishsAnimateTests.swift; sourceTree = "<group>"; };
+		3FB4BF021A0CCD880012BC63 /* fish-fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish-fish.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB4BEDA1A0CCBA00012BC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB4BEEF1A0CCBA00012BC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB4BED41A0CCBA00012BC63 = {
+			isa = PBXGroup;
+			children = (
+				3FB4BEDF1A0CCBA00012BC63 /* FishsAnimate */,
+				3FB4BEF51A0CCBA00012BC63 /* FishsAnimateTests */,
+				3FB4BEDE1A0CCBA00012BC63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB4BEDE1A0CCBA00012BC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB4BEDD1A0CCBA00012BC63 /* FishsAnimate.app */,
+				3FB4BEF21A0CCBA00012BC63 /* FishsAnimateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB4BEDF1A0CCBA00012BC63 /* FishsAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				3FB4BEE21A0CCBA00012BC63 /* AppDelegate.swift */,
+				3FB4BEE41A0CCBA00012BC63 /* ViewController.swift */,
+				3FB4BEE61A0CCBA00012BC63 /* Main.storyboard */,
+				3FB4BEE91A0CCBA00012BC63 /* Images.xcassets */,
+				3FB4BEEB1A0CCBA00012BC63 /* LaunchScreen.xib */,
+				3FB4BEE01A0CCBA00012BC63 /* Supporting Files */,
+			);
+			path = FishsAnimate;
+			sourceTree = "<group>";
+		};
+		3FB4BEE01A0CCBA00012BC63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB4BF021A0CCD880012BC63 /* fish-fish.png */,
+				3FB4BEE11A0CCBA00012BC63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FB4BEF51A0CCBA00012BC63 /* FishsAnimateTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB4BEF81A0CCBA00012BC63 /* FishsAnimateTests.swift */,
+				3FB4BEF61A0CCBA00012BC63 /* Supporting Files */,
+			);
+			path = FishsAnimateTests;
+			sourceTree = "<group>";
+		};
+		3FB4BEF61A0CCBA00012BC63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB4BEF71A0CCBA00012BC63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB4BEDC1A0CCBA00012BC63 /* FishsAnimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB4BEFC1A0CCBA00012BC63 /* Build configuration list for PBXNativeTarget "FishsAnimate" */;
+			buildPhases = (
+				3FB4BED91A0CCBA00012BC63 /* Sources */,
+				3FB4BEDA1A0CCBA00012BC63 /* Frameworks */,
+				3FB4BEDB1A0CCBA00012BC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishsAnimate;
+			productName = FishsAnimate;
+			productReference = 3FB4BEDD1A0CCBA00012BC63 /* FishsAnimate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB4BEF11A0CCBA00012BC63 /* FishsAnimateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB4BEFF1A0CCBA00012BC63 /* Build configuration list for PBXNativeTarget "FishsAnimateTests" */;
+			buildPhases = (
+				3FB4BEEE1A0CCBA00012BC63 /* Sources */,
+				3FB4BEEF1A0CCBA00012BC63 /* Frameworks */,
+				3FB4BEF01A0CCBA00012BC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB4BEF41A0CCBA00012BC63 /* PBXTargetDependency */,
+			);
+			name = FishsAnimateTests;
+			productName = FishsAnimateTests;
+			productReference = 3FB4BEF21A0CCBA00012BC63 /* FishsAnimateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB4BED51A0CCBA00012BC63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FB4BEDC1A0CCBA00012BC63 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3FB4BEF11A0CCBA00012BC63 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3FB4BEDC1A0CCBA00012BC63;
+					};
+				};
+			};
+			buildConfigurationList = 3FB4BED81A0CCBA00012BC63 /* Build configuration list for PBXProject "FishsAnimate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB4BED41A0CCBA00012BC63;
+			productRefGroup = 3FB4BEDE1A0CCBA00012BC63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB4BEDC1A0CCBA00012BC63 /* FishsAnimate */,
+				3FB4BEF11A0CCBA00012BC63 /* FishsAnimateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB4BEDB1A0CCBA00012BC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB4BEE81A0CCBA00012BC63 /* Main.storyboard in Resources */,
+				3FB4BF031A0CCD880012BC63 /* fish-fish.png in Resources */,
+				3FB4BEED1A0CCBA00012BC63 /* LaunchScreen.xib in Resources */,
+				3FB4BEEA1A0CCBA00012BC63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB4BEF01A0CCBA00012BC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB4BF041A0CCD880012BC63 /* fish-fish.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB4BED91A0CCBA00012BC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB4BEE51A0CCBA00012BC63 /* ViewController.swift in Sources */,
+				3FB4BEE31A0CCBA00012BC63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB4BEEE1A0CCBA00012BC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB4BEF91A0CCBA00012BC63 /* FishsAnimateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB4BEF41A0CCBA00012BC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB4BEDC1A0CCBA00012BC63 /* FishsAnimate */;
+			targetProxy = 3FB4BEF31A0CCBA00012BC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FB4BEE61A0CCBA00012BC63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB4BEE71A0CCBA00012BC63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB4BEEB1A0CCBA00012BC63 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB4BEEC1A0CCBA00012BC63 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB4BEFA1A0CCBA00012BC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FB4BEFB1A0CCBA00012BC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB4BEFD1A0CCBA00012BC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FishsAnimate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FB4BEFE1A0CCBA00012BC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FishsAnimate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FB4BF001A0CCBA00012BC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FishsAnimateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishsAnimate.app/FishsAnimate";
+			};
+			name = Debug;
+		};
+		3FB4BF011A0CCBA00012BC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FishsAnimateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishsAnimate.app/FishsAnimate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB4BED81A0CCBA00012BC63 /* Build configuration list for PBXProject "FishsAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB4BEFA1A0CCBA00012BC63 /* Debug */,
+				3FB4BEFB1A0CCBA00012BC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB4BEFC1A0CCBA00012BC63 /* Build configuration list for PBXNativeTarget "FishsAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB4BEFD1A0CCBA00012BC63 /* Debug */,
+				3FB4BEFE1A0CCBA00012BC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FB4BEFF1A0CCBA00012BC63 /* Build configuration list for PBXNativeTarget "FishsAnimateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB4BF001A0CCBA00012BC63 /* Debug */,
+				3FB4BF011A0CCBA00012BC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB4BED51A0CCBA00012BC63 /* Project object */;
+}
